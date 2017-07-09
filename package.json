@@ -1,0 +1,24 @@
+{
+	"name": "webp",
+	"version": "1.0.0",
+	"description": "### Przygotowanie",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"babel-core": "^6.24.1",
+		"babel-loader": "^7.0.0",
+		"babel-preset-es2015": "^6.24.1",
+		"css-loader": "^0.28.0",
+		"extract-text-webpack-plugin": "^2.1.0",
+		"node-sass": "^4.5.2",
+		"sass-loader": "^6.0.3",
+		"style-loader": "^0.16.1",
+		"webpack": "^2.4.1",
+		"webpack-livereload-plugin": "^0.11.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
+}

@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+}
+.container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+select{
+	height: 20px;
+}
+
+.gameWindow,
+.hintWindow{
+	width: 408px;
+	height: 408px;
+	display: flex;
+	flex-wrap: wrap;
+	border: 4px solid black;
+	border-radius: 4px;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+
+.gameWindow>div{
+	background-image: url(../images/1.jpg);
+	width: 100px;
+	height: 100px;
+	border: 4px solid black;
+	background-repeat: no-repeat;
+	background-size: 500px;
+	z-index: 100;
+}
+.empty{
+	background-image: none;
+	background-color: white;
+}
+.puzzle2{
+	background-position: -100px 0;
+}
+.puzzle3{
+	background-position: -200px 0;
+}
+.puzzle4{
+	background-position: -300px 0;
+}
+.puzzle11{
+	background-position: 0 -100px;
+}
+.puzzle12{
+	background-position: -100px -100px;
+}
+.puzzle13{
+	background-position: -200px -100px;
+}
+.puzzle14{
+	background-position: -300px -100px;
+}
+.puzzle21{
+	background-position: 0 -200px;
+}
+.puzzle22{
+	background-position: -100px -200px;
+}
+.puzzle23{
+	background-position: -200px -200px;
+}
+.puzzle24{
+	background-position: -300px -200px;
+}
+.puzzle31{
+	background-position: 0 -300px;
+}
+.puzzle32{
+	background-position: -100px -300px;
+}
+.puzzle33{
+	background-position: -200px -300px;
+}
+.puzzle34{
+	background-position: -300px -300px;
+}
+
+.startBtn,
+.picSelect{
+	width: 150px;
+	height: 35px;
+	border: 3px solid black;
+	border-radius: 5px;
+	display: block;
+	background-color: lightgray;
+	font-weight: 700;
+	font-variant-caps: 20px;
+	line-height: 32px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.hintWindow{
+	position: relative;
+}
+.hint {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+	color: black;
+	font-size: 80px;
+	line-height: 400px;
+	letter-spacing: 10px;
+	text-align: center;
+	background-color: white;
+}
