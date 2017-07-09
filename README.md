@@ -1,4 +1,4 @@
 # Puzzle-Game
 Puzzle Game
 
-Simple Puzzle HTML, CSS and JavaScript, no frameworks used.
+Simple Puzzle game HTML, CSS and JavaScript, no frameworks used.
